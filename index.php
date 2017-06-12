@@ -8,10 +8,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -24,26 +20,25 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Add your site or application content here -->
-    <div class="container-fluid">
-        <div class="row">
-            <header>
-                <nav class="navbar">
-                    <div class="container">
-                        <h1 class="text-center">Islændere i DK</h1>
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Forside</a></li>
-                            <li><a href="#">Nyheder</a></li>
-                            <li><a href="#">Sitemap</a></li>
-                            <li><a href="#">Print</a></li>
-                            <li><a href="#">Kontakt</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-            <main class="container bgMain">
-                <p>Hello world! This is HTML5 Boilerplate.</p>
-            </main>
+    <header>
+       <div class="logoText">
+        <h1>Islændere i DK</h1>
+        <img src="img/medlem-emblem.png" alt="">
         </div>
+        <nav>
+            <ul>
+                <li> <a href="">Forside</a> </li>
+                <li> <a href="">Nyheder</a> </li>
+                <li> <a href="">Sitemap</a> </li>
+                <li> <a href="">Print</a> </li>
+                <li> <a href="">Kontakt</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main class="bgMain">
+            <p>Hello world! This is HTML5 Boilerplate.</p>
+        </main>
     </div>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
