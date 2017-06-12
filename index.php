@@ -20,14 +20,31 @@
 </head>
 
 <body>
-   <header>
-       
-   </header>
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <header>
+                <nav class="navbar">
+                    <div class="container">
+                        <h1 class="text-center">Islændere i DK</h1>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Forside</a></li>
+                            <li><a href="#">Nyheder</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Print</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main class="container bgMain">
+                <p>Hello world! This is HTML5 Boilerplate.</p>
+            </main>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')

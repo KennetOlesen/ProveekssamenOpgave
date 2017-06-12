@@ -1,2 +1,40 @@
-body{background-color: blue;}
+/*IMPORTING GOOGLE FRONTS*/
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/*STOPPING IMPORTING GOOGLE FRONTS*/
+
+body {
+    background-color: #EFEAE2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    height: 330px;
+    background-color: #FFC63C;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bgMain {
+    background-color: aqua;
+    margin-top: 30px;
+}
+
+nav {
+    ul {
+        li {
+            a {
+                font-family: 'Raleway', sans-serif;
+            }
+        }
+    }
+}
