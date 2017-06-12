@@ -26,36 +26,84 @@ h6 {
 /* line 35, css/main.scss */
 header {
   height: 330px;
-  background-color: #FFC63C; }
-
-/* line 40, css/main.scss */
-.logoText {
+  background-color: #FFC63C;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-  /* line 44, css/main.scss */
-  .logoText img {
-    padding-left: 10%; }
 
-/* line 49, css/main.scss */
+/* line 44, css/main.scss */
+.logoText h1 {
+  text-align: center; }
+
+/* line 47, css/main.scss */
+.logoText img {
+  padding-left: 10%; }
+
+/* line 52, css/main.scss */
+nav {
+  position: absolute;
+  left: 230px; }
+  /* line 56, css/main.scss */
+  nav ul li {
+    list-style: none;
+    display: inline-block; }
+    /* line 59, css/main.scss */
+    nav ul li a {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif; }
+
+/* line 69, css/main.scss */
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* line 77, css/main.scss */
+.search {
+  width: 100%;
+  position: relative; }
+
+/* line 82, css/main.scss */
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF; }
+
+/* line 93, css/main.scss */
+.searchTerm:focus {
+  color: #00B4CC; }
+
+/* line 97, css/main.scss */
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; }
+
+/* line 111, css/main.scss */
 .wrapper {
   width: 1366px;
   margin: 0 auto;
   padding: 0; }
 
-/* line 54, css/main.scss */
+/* line 117, css/main.scss */
 .bgMain {
   background-color: aqua;
   margin-top: 30px; }
-
-/* line 61, css/main.scss */
-nav ul li {
-  list-style: none;
-  display: inline-block; }
-  /* line 64, css/main.scss */
-  nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

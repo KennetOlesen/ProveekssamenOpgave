@@ -35,33 +35,31 @@ h6 {
 header {
     height: 330px;
     background-color: #FFC63C;
+
 }
 
 .logoText {
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    h1 {
+        text-align: center;
+    }
     img {
         padding-left: 10%;
     }
 }
 
-.wrapper{
-    width: 1366px;
-    margin: 0 auto;
-    padding: 0;
-}
-.bgMain {
-    background-color: aqua;
-    margin-top: 30px;
-}
-
 nav {
+    
     ul {
+        
         li {
+            
             list-style: none;
             display: inline-block;
             a {
+                padding-right: 10px;
                 text-transform: uppercase;
                 text-decoration: none;
                 font-family: 'Raleway', sans-serif;
@@ -69,4 +67,15 @@ nav {
             }
         }
     }
+}
+
+.wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bgMain {
+    background-color: aqua;
+    margin-top: 30px;
 }

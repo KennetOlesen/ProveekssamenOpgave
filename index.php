@@ -21,10 +21,8 @@
         <![endif]-->
     <!-- Add your site or application content here -->
     <header>
-       <div class="logoText">
-        <h1>Islændere i DK</h1>
-        <img src="img/medlem-emblem.png" alt="">
-        </div>
+        <div class="logoText">
+            <h1>Islændere i DK</h1> <img src="img/medlem-emblem.png" alt=""> </div>
         <nav>
             <ul>
                 <li> <a href="">Forside</a> </li>
@@ -34,6 +32,9 @@
                 <li> <a href="">Kontakt</a> </li>
             </ul>
         </nav>
+        <div class="wrap">
+<div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?"></div></div>
     </header>
     <div class="wrapper">
         <main class="bgMain">
