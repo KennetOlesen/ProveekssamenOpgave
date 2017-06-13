@@ -1,0 +1,65 @@
+/*IMPORTING GOOGLE FRONTS*/
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/*STOPPING IMPORTING GOOGLE FRONTS*/
+/* line 8, ProveekssamenOpgave/CSS/main.scss */
+body {
+  background-color: #EFEAE2; }
+
+/*Helping classes */
+/*Gives img allways 100% width*/
+/* line 18, ProveekssamenOpgave/CSS/main.scss */
+.img-responsive {
+  width: 100%; }
+
+/*Gives all Headings a font-family and padding 0*/
+/* line 25, ProveekssamenOpgave/CSS/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Libre Baskerville', serif;
+  padding: 0; }
+
+/* line 35, ProveekssamenOpgave/CSS/main.scss */
+header {
+  height: 330px;
+  background-color: #FFC63C; }
+
+/* line 41, ProveekssamenOpgave/CSS/main.scss */
+.logoText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  /* line 45, ProveekssamenOpgave/CSS/main.scss */
+  .logoText h1 {
+    text-align: center; }
+  /* line 48, ProveekssamenOpgave/CSS/main.scss */
+  .logoText img {
+    padding-left: 10%; }
+
+/* line 57, ProveekssamenOpgave/CSS/main.scss */
+nav ul li {
+  list-style: none;
+  display: inline-block; }
+  /* line 61, ProveekssamenOpgave/CSS/main.scss */
+  nav ul li a {
+    padding-right: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; }
+
+/* line 72, ProveekssamenOpgave/CSS/main.scss */
+.wrapper {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 0; }
+
+/* line 78, ProveekssamenOpgave/CSS/main.scss */
+.bgMain {
+  background-color: aqua;
+  margin-top: 30px; }
+
+/*# sourceMappingURL=main.css.map */
